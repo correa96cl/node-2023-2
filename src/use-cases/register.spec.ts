@@ -13,11 +13,11 @@ describe('Register Use Case', () => {
             async create(data) {
                 return
                 
-                    id: "user-1"
+                   { id: "user-1"
                     name: data.name
                     email: data.email
                     password_hash: data.password_hash
-                    created_at: new Date()
+                    created_at: new Date()}
                 
             },
         })
